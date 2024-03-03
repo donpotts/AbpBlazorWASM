@@ -1,11 +1,14 @@
 # abpBlazorWasm
 
 Client 
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/donpotts/abpblasorwasm/.github/workflows/abpblazorwasm.yml?logo=github)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/donpotts/abpBlazorWasm/.github/workflows/abpblazorwasm.yml?logo=github)
+
+https://abpblazorwasm.azurewebsites.net/
 
 Server 
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/donpotts/abpBlazorWasm/.github/workflows/abpblazorwasmhttpapihost.yml?logo=github)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/donpotts/abpBlazorWasm/.github/workflows/abpblazorwasmhttpapihost.yml?logo=github)1
 
+https://abpblazorwasmhttpapihost.azurewebsites.net/swagger/index.html
 
 ## About this solution
 
