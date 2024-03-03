@@ -88,9 +88,4 @@ You can see the following resources to learn more about your solution and the AB
 * [LeptonX Lite Blazor UI](https://docs.abp.io/en/abp/latest/Themes/LeptonXLite/Blazor?UI=Blazor)
 
 
-The sites are hosted on free Azure App Services
-
-https://abpblazorwasmhttpapihost.azurewebsites.net/swagger/index.html
-
-https://abpblazorwasm.azurewebsites.net/
 
