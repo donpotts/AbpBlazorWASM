@@ -1,14 +1,16 @@
 # abpBlazorWasm
 
+The sites are hosted on free Azure App Services and take time to load when not in use. Go to the server URL first before navigating to the client for the best results.
+
+Server 
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/donpotts/abpBlazorWasm/.github/workflows/abpblazorwasmhttpapihost.yml?logo=github)
+
+https://abpblazorwasmhttpapihost.azurewebsites.net/swagger/index.html
+
 Client 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/donpotts/abpBlazorWasm/.github/workflows/abpblazorwasm.yml?logo=github)
 
 https://abpblazorwasm.azurewebsites.net/
-
-Server 
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/donpotts/abpBlazorWasm/.github/workflows/abpblazorwasmhttpapihost.yml?logo=github)1
-
-https://abpblazorwasmhttpapihost.azurewebsites.net/swagger/index.html
 
 ## About this solution
 
