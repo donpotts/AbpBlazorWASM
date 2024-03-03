@@ -1,8 +1,15 @@
 # abpBlazorWasm
 
+Client 
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/donpotts/abpblasorwasm/abpblazorwasm.yml?logo=github)
+
+Server 
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/donpotts/abpblasorwasm/abpblazorwasmhttpapihost.yml?logo=github)
+
+
 ## About this solution
 
-This is a layered startup solution based on [Domain Driven Design (DDD)](https://docs.abp.io/en/abp/latest/Domain-Driven-Design) practises. All the fundamental ABP modules are already installed. 
+This is a layered startup solution based on [Domain Driven Design (DDD)](https://docs.abp.io/en/abp/latest/Domain-Driven-Design) practices. All the fundamental ABP modules are already installed. 
 
 ### Pre-requirements
 
@@ -29,7 +36,7 @@ dotnet dev-certs https -v -ep openiddict.pfx -p cb928750-b262-4ec3-8ae6-ea7535db
 
 > `cb928750-b262-4ec3-8ae6-ea7535db2305` is the password of the certificate, you can change it to any password you want.
 
-It is recommended to use **two** RSA certificates, distinct from the certificate(s) used for HTTPS: one for encryption, one for signing.
+It is recommended to use **two** RSA certificates, distinct from the certificate(s) used for HTTPS: one for encryption, and one for signing.
 
 For more information, please refer to: https://documentation.openiddict.com/configuration/encryption-and-signing-credentials.html#registering-a-certificate-recommended-for-production-ready-scenarios
 
@@ -53,7 +60,7 @@ Run `abpBlazorWasm.DbMigrator` to create the initial database. This should be do
 
 This is a layered monolith application that consists of the following applications:
 
-* `abpBlazorWasm.DbMigrator`: A console application which applies the migrations and also seeds the initial data. It is useful on development as well as on production environment.
+* `abpBlazorWasm.DbMigrator`: A console application that applies the migrations and also seeds the initial data. It is useful in development as well as in production environment.
 * `abpBlazorWasm.HttpApi.Host`: ASP.NET Core API application that is used to expose the APIs to the clients.
 * `abpBlazorWasm.Blazor`: ASP.NET Core Blazor Server application that is the essential web application of the solution.
 
@@ -68,3 +75,11 @@ You can see the following resources to learn more about your solution and the AB
 * [Web Application Development Tutorial](https://docs.abp.io/en/abp/latest/Tutorials/Part-1)
 * [Application Startup Template Structure](https://docs.abp.io/en/abp/latest/Startup-Templates/Application)
 * [LeptonX Lite Blazor UI](https://docs.abp.io/en/abp/latest/Themes/LeptonXLite/Blazor?UI=Blazor)
+
+
+The sites are hosted on free Azure App Services
+
+https://abpblazorwasmhttpapihost.azurewebsites.net/swagger/index.html
+
+https://abpblazorwasm.azurewebsites.net/
+
