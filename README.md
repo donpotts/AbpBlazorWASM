@@ -12,6 +12,12 @@ Client
 
 https://abpblazorwasm.azurewebsites.net/
 
+## License and other information
+
+Refer to the link below for license and other related information concerning abp.io.
+
+https://github.com/abpframework/abp
+
 ## About this solution
 
 This is a layered startup solution based on [Domain Driven Design (DDD)](https://docs.abp.io/en/abp/latest/Domain-Driven-Design) practices. All the fundamental ABP modules are already installed. 
