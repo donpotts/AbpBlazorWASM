@@ -1,10 +1,10 @@
 # abpBlazorWasm
 
 Client 
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/donpotts/abpblasorwasm/abpblazorwasm.yml?logo=github)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/donpotts/abpblasorwasm/.github/workflows/abpblazorwasm.yml?logo=github)
 
 Server 
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/donpotts/abpblasorwasm/abpblazorwasmhttpapihost.yml?logo=github)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/donpotts/abpBlazorWasm/.github/workflows/abpblazorwasmhttpapihost.yml?logo=github)
 
 
 ## About this solution
